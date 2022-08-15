@@ -1,0 +1,87 @@
+#self {
+    float: left;
+    width: 338px;
+    height: auto;
+    margin: 5px;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 5px;
+  font-size: larger;
+  background-color: aqua;
+}
+
+#showcase {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  width: 95%;
+  height: 220px;
+  background-color: pink; 
+}
+
+#content {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+.container {
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  background-color: blueviolet;
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100%;
+  top: 50px;
+  justify-content: space-around;
+  float: right;
+  background-color: lightgoldenrodyellow;
+}
+
+#about {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  margin: 5px;
+  background-color: blue;
+}
+
+#foot {
+  display: flex;
+  clear: both;
+  width: 200px;
+  margin: 5px;
+  background-color: palegreen;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.item {
+  height: 210px;
+  width: 338px;
+  margin: 5px;
+  text-align: center;
+  align-content: center;
+  background-color: lavender;
+}
